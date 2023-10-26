@@ -167,16 +167,12 @@ void GridLayout::calculateWorkspace(const int &ws)
 
     int m_x = PMONITOR->vecPosition.x;
     int m_y = PMONITOR->vecPosition.y;
-    // int w_x = PMONITOR->vecReservedTopLeft.x;
-    // int w_y = PMONITOR->vecReservedTopLeft.y;
-    int w_x = m_x;
-    int w_y = m_y;
+    int w_x = PMONITOR->vecPosition.x;
+    int w_y = PMONITOR->vecReservedTopLeft.y;
     int m_width = PMONITOR->vecSize.x;
     int m_height = PMONITOR->vecSize.y;
     int w_width = PMONITOR->vecSize.x;
     int w_height = PMONITOR->vecSize.y - PMONITOR->vecReservedTopLeft.y;
-
-    hycov_log(LOG,"mx:{},my:{},wx:{},wy:{}",m_x,m_y,w_x,w_x);
 
     for (auto &node : m_lGridNodesData)
     {
