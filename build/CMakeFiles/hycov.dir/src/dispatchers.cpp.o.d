@@ -34,8 +34,8 @@ CMakeFiles/hycov.dir/src/dispatchers.cpp.o: \
  /usr/include/c++/13.2.1/debug/assertions.h \
  /usr/include/c++/13.2.1/bits/utility.h /usr/include/c++/13.2.1/compare \
  /usr/include/c++/13.2.1/bits/invoke.h \
- /usr/local/include/hyprland/src/Compositor.hpp \
- /usr/include/c++/13.2.1/memory /usr/include/c++/13.2.1/bits/memoryfwd.h \
+ /usr/include/hyprland/src/Compositor.hpp /usr/include/c++/13.2.1/memory \
+ /usr/include/c++/13.2.1/bits/memoryfwd.h \
  /usr/include/c++/13.2.1/bits/allocator.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
  /usr/include/c++/13.2.1/bits/new_allocator.h \
@@ -185,8 +185,8 @@ CMakeFiles/hycov.dir/src/dispatchers.cpp.o: \
  /usr/include/c++/13.2.1/bits/deque.tcc /usr/include/c++/13.2.1/list \
  /usr/include/c++/13.2.1/bits/stl_list.h \
  /usr/include/c++/13.2.1/bits/list.tcc \
- /usr/local/include/hyprland/src/defines.hpp \
- /usr/local/include/hyprland/src/includes.hpp /usr/include/getopt.h \
+ /usr/include/hyprland/src/defines.hpp \
+ /usr/include/hyprland/src/includes.hpp /usr/include/getopt.h \
  /usr/include/bits/getopt_ext.h /usr/include/libinput.h \
  /usr/include/c++/13.2.1/stdlib.h /usr/include/libudev.h \
  /usr/include/sys/sysmacros.h /usr/include/bits/sysmacros.h \
@@ -251,135 +251,123 @@ CMakeFiles/hycov.dir/src/dispatchers.cpp.o: \
  /usr/include/c++/13.2.1/bits/istream.tcc \
  /usr/include/c++/13.2.1/bits/sstream.tcc /usr/include/c++/13.2.1/codecvt \
  /usr/include/c++/13.2.1/bits/fs_dir.h \
- /usr/include/c++/13.2.1/bits/fs_ops.h /usr/local/include/wlr/backend.h \
- /usr/local/include/wlr/backend/libinput.h \
- /usr/local/include/wlr/backend/session.h \
- /usr/local/include/wlr/backend/drm.h \
- /usr/local/include/wlr/types/wlr_output.h /usr/include/pixman-1/pixman.h \
- /usr/include/pixman-1/pixman-version.h \
+ /usr/include/c++/13.2.1/bits/fs_ops.h /usr/include/wlr/backend.h \
+ /usr/include/wlr/backend/libinput.h /usr/include/wlr/backend/session.h \
+ /usr/include/wlr/backend/drm.h /usr/include/wlr/types/wlr_output.h \
+ /usr/include/pixman-1/pixman.h /usr/include/pixman-1/pixman-version.h \
  /usr/include/wayland-server-protocol.h /usr/include/wayland-server.h \
  /usr/include/wayland-server-core.h \
  /usr/include/wayland-server-protocol.h /usr/include/wayland-util.h \
- /usr/local/include/wlr/render/wlr_renderer.h \
- /usr/local/include/wlr/render/pass.h /usr/local/include/wlr/util/box.h \
- /usr/local/include/wlr/render/wlr_texture.h \
- /usr/local/include/wlr/render/dmabuf.h \
- /usr/local/include/wlr/types/wlr_buffer.h \
- /usr/local/include/wlr/util/addon.h \
- /usr/local/include/wlr/render/allocator.h \
- /usr/local/include/wlr/types/wlr_compositor.h \
- /usr/local/include/wlr/types/wlr_cursor.h \
- /usr/local/include/wlr/types/wlr_output_layout.h \
- /usr/local/include/wlr/types/wlr_data_control_v1.h \
- /usr/local/include/wlr/types/wlr_seat.h \
- /usr/local/include/wlr/types/wlr_input_device.h \
- /usr/local/include/wlr/types/wlr_keyboard.h \
- /usr/include/xkbcommon/xkbcommon.h \
+ /usr/include/wlr/render/wlr_renderer.h /usr/include/wlr/render/pass.h \
+ /usr/include/wlr/util/box.h /usr/include/wlr/render/wlr_texture.h \
+ /usr/include/wlr/render/dmabuf.h /usr/include/wlr/types/wlr_buffer.h \
+ /usr/include/wlr/util/addon.h /usr/include/wlr/render/allocator.h \
+ /usr/include/wlr/types/wlr_compositor.h \
+ /usr/include/wlr/types/wlr_cursor.h \
+ /usr/include/wlr/types/wlr_output_layout.h \
+ /usr/include/wlr/types/wlr_data_control_v1.h \
+ /usr/include/wlr/types/wlr_seat.h \
+ /usr/include/wlr/types/wlr_input_device.h \
+ /usr/include/wlr/types/wlr_keyboard.h /usr/include/xkbcommon/xkbcommon.h \
  /usr/include/xkbcommon/xkbcommon-names.h \
  /usr/include/xkbcommon/xkbcommon-keysyms.h \
  /usr/include/xkbcommon/xkbcommon-compat.h \
- /usr/local/include/wlr/types/wlr_pointer.h \
- /usr/local/include/wlr/types/wlr_data_device.h \
- /usr/local/include/wlr/types/wlr_drm_lease_v1.h \
- /usr/local/include/wlr/types/wlr_drm.h \
- /usr/local/include/wlr/render/drm_format_set.h \
- /usr/local/include/wlr/types/wlr_export_dmabuf_v1.h \
- /usr/local/include/wlr/types/wlr_linux_dmabuf_v1.h \
- /usr/include/sys/stat.h /usr/include/bits/stat.h \
- /usr/include/bits/struct_stat.h /usr/include/bits/statx.h \
- /usr/include/linux/stat.h /usr/include/linux/types.h \
- /usr/include/asm/types.h /usr/include/asm-generic/types.h \
- /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
- /usr/include/asm/posix_types_64.h /usr/include/asm-generic/posix_types.h \
- /usr/include/bits/statx-generic.h \
+ /usr/include/wlr/types/wlr_pointer.h \
+ /usr/include/wlr/types/wlr_data_device.h \
+ /usr/include/wlr/types/wlr_drm_lease_v1.h \
+ /usr/include/wlr/types/wlr_drm.h \
+ /usr/include/wlr/render/drm_format_set.h \
+ /usr/include/wlr/types/wlr_export_dmabuf_v1.h \
+ /usr/include/wlr/types/wlr_linux_dmabuf_v1.h /usr/include/sys/stat.h \
+ /usr/include/bits/stat.h /usr/include/bits/struct_stat.h \
+ /usr/include/bits/statx.h /usr/include/linux/stat.h \
+ /usr/include/linux/types.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/asm/bitsperlong.h /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/bits/statx-generic.h \
  /usr/include/bits/types/struct_statx_timestamp.h \
  /usr/include/bits/types/struct_statx.h \
- /usr/local/include/wlr/types/wlr_gamma_control_v1.h \
- /usr/local/include/wlr/types/wlr_idle.h \
- /usr/local/include/wlr/types/wlr_layer_shell_v1.h \
+ /usr/include/wlr/types/wlr_gamma_control_v1.h \
+ /usr/include/wlr/types/wlr_idle.h \
+ /usr/include/wlr/types/wlr_layer_shell_v1.h \
  /usr/include/hyprland/protocols/wlr-layer-shell-unstable-v1-protocol.h \
- /usr/include/wayland-server.h /usr/local/include/wlr/types/wlr_matrix.h \
- /usr/local/include/wlr/types/wlr_output_management_v1.h \
- /usr/local/include/wlr/types/wlr_presentation_time.h \
- /usr/local/include/wlr/types/wlr_primary_selection.h \
- /usr/local/include/wlr/types/wlr_primary_selection_v1.h \
- /usr/local/include/wlr/types/wlr_screencopy_v1.h \
- /usr/local/include/wlr/types/wlr_server_decoration.h \
- /usr/local/include/wlr/types/wlr_viewporter.h \
- /usr/local/include/wlr/types/wlr_virtual_keyboard_v1.h \
- /usr/local/include/wlr/types/wlr_xcursor_manager.h \
- /usr/local/include/wlr/xcursor.h /usr/local/include/wlr/util/edges.h \
- /usr/local/include/wlr/types/wlr_xdg_activation_v1.h \
- /usr/local/include/wlr/types/wlr_xdg_decoration_v1.h \
- /usr/local/include/wlr/types/wlr_xdg_shell.h \
+ /usr/include/wayland-server.h /usr/include/wlr/types/wlr_matrix.h \
+ /usr/include/wlr/types/wlr_output_management_v1.h \
+ /usr/include/wlr/types/wlr_presentation_time.h \
+ /usr/include/wlr/types/wlr_primary_selection.h \
+ /usr/include/wlr/types/wlr_primary_selection_v1.h \
+ /usr/include/wlr/types/wlr_screencopy_v1.h \
+ /usr/include/wlr/types/wlr_server_decoration.h \
+ /usr/include/wlr/types/wlr_viewporter.h \
+ /usr/include/wlr/types/wlr_virtual_keyboard_v1.h \
+ /usr/include/wlr/types/wlr_xcursor_manager.h /usr/include/wlr/xcursor.h \
+ /usr/include/wlr/util/edges.h \
+ /usr/include/wlr/types/wlr_xdg_activation_v1.h \
+ /usr/include/wlr/types/wlr_xdg_decoration_v1.h \
+ /usr/include/wlr/types/wlr_xdg_shell.h \
  /usr/include/hyprland/protocols/xdg-shell-protocol.h \
- /usr/local/include/wlr/types/wlr_xdg_output_v1.h \
- /usr/local/include/wlr/types/wlr_subcompositor.h \
- /usr/local/include/wlr/types/wlr_damage_ring.h \
- /usr/local/include/wlr/types/wlr_input_inhibitor.h \
- /usr/local/include/wlr/types/wlr_keyboard_shortcuts_inhibit_v1.h \
- /usr/local/include/wlr/types/wlr_virtual_pointer_v1.h \
- /usr/local/include/wlr/interfaces/wlr_pointer.h \
- /usr/local/include/wlr/interfaces/wlr_output.h \
- /usr/local/include/wlr/types/wlr_foreign_toplevel_management_v1.h \
- /usr/local/include/wlr/types/wlr_idle_inhibit_v1.h \
- /usr/local/include/wlr/util/log.h /usr/include/string.h \
- /usr/include/strings.h /usr/local/include/wlr/util/region.h \
- /usr/local/include/wlr/types/wlr_tablet_pad.h \
- /usr/local/include/wlr/types/wlr_tablet_tool.h \
- /usr/local/include/wlr/types/wlr_tablet_v2.h \
+ /usr/include/wlr/types/wlr_xdg_output_v1.h \
+ /usr/include/wlr/types/wlr_subcompositor.h \
+ /usr/include/wlr/types/wlr_damage_ring.h \
+ /usr/include/wlr/types/wlr_input_inhibitor.h \
+ /usr/include/wlr/types/wlr_keyboard_shortcuts_inhibit_v1.h \
+ /usr/include/wlr/types/wlr_virtual_pointer_v1.h \
+ /usr/include/wlr/interfaces/wlr_pointer.h \
+ /usr/include/wlr/interfaces/wlr_output.h \
+ /usr/include/wlr/types/wlr_foreign_toplevel_management_v1.h \
+ /usr/include/wlr/types/wlr_idle_inhibit_v1.h /usr/include/wlr/util/log.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/wlr/util/region.h /usr/include/wlr/types/wlr_tablet_pad.h \
+ /usr/include/wlr/types/wlr_tablet_tool.h \
+ /usr/include/wlr/types/wlr_tablet_v2.h \
  /usr/include/hyprland/protocols/tablet-unstable-v2-protocol.h \
- /usr/local/include/wlr/render/egl.h /usr/local/include/wlr/config.h \
+ /usr/include/wlr/render/egl.h /usr/include/wlr/config.h \
  /usr/include/EGL/egl.h /usr/include/EGL/eglplatform.h \
  /usr/include/KHR/khrplatform.h /usr/include/EGL/eglext.h \
- /usr/local/include/wlr/render/gles2.h /usr/include/GLES2/gl2.h \
+ /usr/include/wlr/render/gles2.h /usr/include/GLES2/gl2.h \
  /usr/include/GLES2/gl2platform.h \
- /usr/local/include/wlr/types/wlr_pointer_constraints_v1.h \
+ /usr/include/wlr/types/wlr_pointer_constraints_v1.h \
  /usr/include/hyprland/protocols/pointer-constraints-unstable-v1-protocol.h \
- /usr/local/include/wlr/types/wlr_relative_pointer_v1.h \
- /usr/local/include/wlr/interfaces/wlr_keyboard.h \
- /usr/local/include/wlr/types/wlr_xdg_foreign_registry.h \
- /usr/local/include/wlr/types/wlr_xdg_foreign_v1.h \
- /usr/local/include/wlr/types/wlr_xdg_foreign_v2.h \
- /usr/local/include/wlr/types/wlr_pointer_gestures_v1.h \
- /usr/local/include/wlr/types/wlr_output_power_management_v1.h \
+ /usr/include/wlr/types/wlr_relative_pointer_v1.h \
+ /usr/include/wlr/interfaces/wlr_keyboard.h \
+ /usr/include/wlr/types/wlr_xdg_foreign_registry.h \
+ /usr/include/wlr/types/wlr_xdg_foreign_v1.h \
+ /usr/include/wlr/types/wlr_xdg_foreign_v2.h \
+ /usr/include/wlr/types/wlr_pointer_gestures_v1.h \
+ /usr/include/wlr/types/wlr_output_power_management_v1.h \
  /usr/include/hyprland/protocols/wlr-output-power-management-unstable-v1-protocol.h \
- /usr/local/include/wlr/types/wlr_input_method_v2.h \
- /usr/local/include/wlr/types/wlr_text_input_v3.h \
- /usr/local/include/wlr/types/wlr_touch.h \
- /usr/local/include/wlr/types/wlr_switch.h \
- /usr/local/include/wlr/backend/headless.h \
- /usr/local/include/wlr/backend/multi.h \
- /usr/local/include/wlr/backend/wayland.h /usr/include/wayland-client.h \
+ /usr/include/wlr/types/wlr_input_method_v2.h \
+ /usr/include/wlr/types/wlr_text_input_v3.h \
+ /usr/include/wlr/types/wlr_touch.h /usr/include/wlr/types/wlr_switch.h \
+ /usr/include/wlr/backend/headless.h /usr/include/wlr/backend/multi.h \
+ /usr/include/wlr/backend/wayland.h /usr/include/wayland-client.h \
  /usr/include/wayland-client-core.h \
  /usr/include/wayland-client-protocol.h /usr/include/wayland-client.h \
- /usr/local/include/wlr/types/wlr_session_lock_v1.h \
- /usr/local/include/wlr/types/wlr_single_pixel_buffer_v1.h \
- /usr/local/include/wlr/types/wlr_idle_notify_v1.h \
- /usr/local/include/wlr/types/wlr_cursor_shape_v1.h \
+ /usr/include/wlr/types/wlr_session_lock_v1.h \
+ /usr/include/wlr/types/wlr_single_pixel_buffer_v1.h \
+ /usr/include/wlr/types/wlr_idle_notify_v1.h \
+ /usr/include/wlr/types/wlr_cursor_shape_v1.h \
  /usr/include/hyprland/protocols/cursor-shape-v1-protocol.h \
  /usr/include/libdrm/drm_fourcc.h /usr/include/libdrm/drm.h \
  /usr/include/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
- /usr/include/libdrm/drm_mode.h /usr/local/include/wlr/backend/x11.h \
- /usr/local/include/wlr/xwayland.h \
- /usr/local/include/wlr/xwayland/server.h \
- /usr/local/include/wlr/xwayland/xwayland.h /usr/include/xcb/xcb.h \
+ /usr/include/libdrm/drm_mode.h /usr/include/wlr/backend/x11.h \
+ /usr/include/wlr/xwayland.h /usr/include/wlr/xwayland/server.h \
+ /usr/include/wlr/xwayland/xwayland.h /usr/include/xcb/xcb.h \
  /usr/include/sys/uio.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/uio-ext.h /usr/include/xcb/xproto.h \
  /usr/include/xcb/xcb.h /usr/include/xcb/xcb_ewmh.h \
  /usr/include/xcb/xcb_icccm.h /usr/include/GLES3/gl32.h \
  /usr/include/GLES3/gl3platform.h /usr/include/GLES3/gl3ext.h \
- /usr/local/include/hyprland/src/helpers/Vector2D.hpp \
+ /usr/include/hyprland/src/helpers/Vector2D.hpp \
  /usr/include/c++/13.2.1/format /usr/include/c++/13.2.1/array \
  /usr/include/c++/13.2.1/charconv /usr/include/c++/13.2.1/span \
- /usr/include/c++/13.2.1/variant \
- /usr/local/include/hyprland/src/macros.hpp \
+ /usr/include/c++/13.2.1/variant /usr/include/hyprland/src/macros.hpp \
  /usr/include/c++/13.2.1/csignal /usr/include/c++/13.2.1/utility \
  /usr/include/c++/13.2.1/bits/stl_relops.h \
- /usr/local/include/hyprland/src/debug/Log.hpp \
- /usr/include/c++/13.2.1/iostream /usr/include/c++/13.2.1/fstream \
+ /usr/include/hyprland/src/debug/Log.hpp /usr/include/c++/13.2.1/iostream \
+ /usr/include/c++/13.2.1/fstream \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/13.2.1/bits/fstream.tcc /usr/include/c++/13.2.1/chrono \
@@ -391,8 +379,8 @@ CMakeFiles/hycov.dir/src/dispatchers.cpp.o: \
  /usr/include/c++/13.2.1/bits/stl_heap.h \
  /usr/include/c++/13.2.1/bits/uniform_int_dist.h \
  /usr/include/c++/13.2.1/bits/chrono_io.h \
- /usr/local/include/hyprland/src/helpers/MiscFunctions.hpp \
- /usr/local/include/hyprland/src/helpers/WLListener.hpp \
+ /usr/include/hyprland/src/helpers/MiscFunctions.hpp \
+ /usr/include/hyprland/src/helpers/WLListener.hpp \
  /usr/include/c++/13.2.1/functional \
  /usr/include/c++/13.2.1/bits/std_function.h \
  /usr/include/c++/13.2.1/unordered_map \
@@ -403,15 +391,14 @@ CMakeFiles/hycov.dir/src/dispatchers.cpp.o: \
  /usr/include/c++/13.2.1/bits/erase_if.h \
  /usr/include/c++/13.2.1/bits/move_only_function.h \
  /usr/include/c++/13.2.1/bits/mofunc_impl.h \
- /usr/local/include/hyprland/src/helpers/Color.hpp \
- /usr/local/include/hyprland/src/events/Events.hpp \
- /usr/local/include/hyprland/src/defines.hpp \
- /usr/local/include/hyprland/src/config/ConfigManager.hpp \
+ /usr/include/hyprland/src/helpers/Color.hpp \
+ /usr/include/hyprland/src/events/Events.hpp \
+ /usr/include/hyprland/src/defines.hpp \
+ /usr/include/hyprland/src/config/ConfigManager.hpp \
  /usr/include/c++/13.2.1/map /usr/include/c++/13.2.1/bits/stl_tree.h \
  /usr/include/c++/13.2.1/bits/stl_map.h \
  /usr/include/c++/13.2.1/bits/stl_multimap.h \
- /usr/local/include/hyprland/src/defines.hpp \
- /usr/include/c++/13.2.1/algorithm \
+ /usr/include/hyprland/src/defines.hpp /usr/include/c++/13.2.1/algorithm \
  /usr/include/c++/13.2.1/bits/ranges_algo.h \
  /usr/include/c++/13.2.1/pstl/glue_algorithm_defs.h \
  /usr/include/c++/13.2.1/regex /usr/include/c++/13.2.1/bitset \
@@ -429,75 +416,74 @@ CMakeFiles/hycov.dir/src/dispatchers.cpp.o: \
  /usr/include/c++/13.2.1/bits/regex_executor.h \
  /usr/include/c++/13.2.1/bits/regex_executor.tcc \
  /usr/include/xf86drmMode.h /usr/include/libdrm/drm.h \
- /usr/include/libdrm/drm_mode.h \
- /usr/local/include/hyprland/src/Window.hpp \
- /usr/local/include/hyprland/src/helpers/SubsurfaceTree.hpp \
- /usr/local/include/hyprland/src/defines.hpp \
- /usr/local/include/hyprland/src/helpers/WLSurface.hpp \
- /usr/local/include/hyprland/src/helpers/AnimatedVariable.hpp \
+ /usr/include/libdrm/drm_mode.h /usr/include/hyprland/src/Window.hpp \
+ /usr/include/hyprland/src/helpers/SubsurfaceTree.hpp \
+ /usr/include/hyprland/src/defines.hpp \
+ /usr/include/hyprland/src/helpers/WLSurface.hpp \
+ /usr/include/hyprland/src/helpers/AnimatedVariable.hpp \
  /usr/include/c++/13.2.1/any \
- /usr/local/include/hyprland/src/render/decorations/IHyprWindowDecoration.hpp \
- /usr/local/include/hyprland/src/defines.hpp \
- /usr/local/include/hyprland/src/helpers/Region.hpp \
- /usr/local/include/hyprland/src/config/ConfigDataValues.hpp \
- /usr/local/include/hyprland/src/managers/XWaylandManager.hpp \
- /usr/local/include/hyprland/src/defines.hpp \
- /usr/local/include/hyprland/src/helpers/WLClasses.hpp \
- /usr/local/include/hyprland/src/helpers/Monitor.hpp \
- /usr/local/include/hyprland/src/helpers/Timer.hpp \
- /usr/local/include/hyprland/src/helpers/VarList.hpp \
- /usr/local/include/hyprland/src/config/defaultConfig.hpp \
- /usr/local/include/hyprland/src/managers/ThreadManager.hpp \
- /usr/local/include/hyprland/src/managers/input/InputManager.hpp \
- /usr/local/include/hyprland/src/defines.hpp \
- /usr/local/include/hyprland/src/managers/input/InputMethodRelay.hpp \
- /usr/local/include/hyprland/src/managers/LayoutManager.hpp \
- /usr/local/include/hyprland/src/layout/DwindleLayout.hpp \
- /usr/local/include/hyprland/src/layout/IHyprLayout.hpp \
- /usr/local/include/hyprland/src/defines.hpp \
- /usr/local/include/hyprland/src/layout/MasterLayout.hpp \
- /usr/local/include/hyprland/src/managers/KeybindManager.hpp \
- /usr/local/include/hyprland/src/managers/AnimationManager.hpp \
- /usr/local/include/hyprland/src/helpers/BezierCurve.hpp \
- /usr/local/include/hyprland/src/managers/EventManager.hpp \
- /usr/local/include/hyprland/src/managers/ProtocolManager.hpp \
- /usr/local/include/hyprland/src/protocols/ToplevelExport.hpp \
- /usr/local/include/hyprland/src/defines.hpp \
+ /usr/include/hyprland/src/render/decorations/IHyprWindowDecoration.hpp \
+ /usr/include/hyprland/src/defines.hpp \
+ /usr/include/hyprland/src/helpers/Region.hpp \
+ /usr/include/hyprland/src/config/ConfigDataValues.hpp \
+ /usr/include/hyprland/src/managers/XWaylandManager.hpp \
+ /usr/include/hyprland/src/defines.hpp \
+ /usr/include/hyprland/src/helpers/WLClasses.hpp \
+ /usr/include/hyprland/src/helpers/Monitor.hpp \
+ /usr/include/hyprland/src/helpers/Timer.hpp \
+ /usr/include/hyprland/src/helpers/VarList.hpp \
+ /usr/include/hyprland/src/config/defaultConfig.hpp \
+ /usr/include/hyprland/src/managers/ThreadManager.hpp \
+ /usr/include/hyprland/src/managers/input/InputManager.hpp \
+ /usr/include/hyprland/src/defines.hpp \
+ /usr/include/hyprland/src/managers/input/InputMethodRelay.hpp \
+ /usr/include/hyprland/src/managers/LayoutManager.hpp \
+ /usr/include/hyprland/src/layout/DwindleLayout.hpp \
+ /usr/include/hyprland/src/layout/IHyprLayout.hpp \
+ /usr/include/hyprland/src/defines.hpp \
+ /usr/include/hyprland/src/layout/MasterLayout.hpp \
+ /usr/include/hyprland/src/managers/KeybindManager.hpp \
+ /usr/include/hyprland/src/managers/AnimationManager.hpp \
+ /usr/include/hyprland/src/helpers/BezierCurve.hpp \
+ /usr/include/hyprland/src/managers/EventManager.hpp \
+ /usr/include/hyprland/src/managers/ProtocolManager.hpp \
+ /usr/include/hyprland/src/protocols/ToplevelExport.hpp \
+ /usr/include/hyprland/src/defines.hpp \
  /usr/include/hyprland/protocols/wlr-foreign-toplevel-management-unstable-v1-protocol.h \
  /usr/include/hyprland/protocols/hyprland-toplevel-export-v1-protocol.h \
- /usr/local/include/hyprland/src/protocols/Screencopy.hpp \
+ /usr/include/hyprland/src/protocols/Screencopy.hpp \
  /usr/include/hyprland/protocols/wlr-screencopy-unstable-v1-protocol.h \
- /usr/local/include/hyprland/src/managers/HookSystemManager.hpp \
+ /usr/include/hyprland/src/managers/HookSystemManager.hpp \
  /usr/include/c++/13.2.1/csetjmp /usr/include/setjmp.h \
- /usr/local/include/hyprland/src/plugins/PluginAPI.hpp \
- /usr/local/include/hyprland/src/plugins/HookSystem.hpp \
- /usr/local/include/hyprland/src/SharedDefs.hpp \
- /usr/local/include/hyprland/src/protocols/FractionalScale.hpp \
+ /usr/include/hyprland/src/plugins/PluginAPI.hpp \
+ /usr/include/hyprland/src/plugins/HookSystem.hpp \
+ /usr/include/hyprland/src/SharedDefs.hpp \
+ /usr/include/hyprland/src/protocols/FractionalScale.hpp \
  /usr/include/hyprland/protocols/fractional-scale-v1-protocol.h \
- /usr/local/include/hyprland/src/protocols/TextInputV1.hpp \
+ /usr/include/hyprland/src/protocols/TextInputV1.hpp \
  /usr/include/hyprland/protocols/text-input-unstable-v1-protocol.h \
- /usr/local/include/hyprland/src/protocols/GlobalShortcuts.hpp \
+ /usr/include/hyprland/src/protocols/GlobalShortcuts.hpp \
  /usr/include/hyprland/protocols/hyprland-global-shortcuts-v1-protocol.h \
- /usr/local/include/hyprland/src/protocols/XDGOutput.hpp \
- /usr/local/include/hyprland/src/protocols/WaylandProtocol.hpp \
- /usr/local/include/hyprland/src/managers/SessionLockManager.hpp \
- /usr/local/include/hyprland/src/debug/HyprDebugOverlay.hpp \
- /usr/local/include/hyprland/src/defines.hpp \
- /usr/local/include/hyprland/src/render/Texture.hpp \
- /usr/local/include/hyprland/src/defines.hpp /usr/include/cairo/cairo.h \
+ /usr/include/hyprland/src/protocols/XDGOutput.hpp \
+ /usr/include/hyprland/src/protocols/WaylandProtocol.hpp \
+ /usr/include/hyprland/src/managers/SessionLockManager.hpp \
+ /usr/include/hyprland/src/debug/HyprDebugOverlay.hpp \
+ /usr/include/hyprland/src/defines.hpp \
+ /usr/include/hyprland/src/render/Texture.hpp \
+ /usr/include/hyprland/src/defines.hpp /usr/include/cairo/cairo.h \
  /usr/include/cairo/cairo-version.h /usr/include/cairo/cairo-features.h \
  /usr/include/cairo/cairo-deprecated.h \
- /usr/local/include/hyprland/src/debug/HyprNotificationOverlay.hpp \
- /usr/local/include/hyprland/src/helpers/Workspace.hpp \
- /usr/local/include/hyprland/src/render/Renderer.hpp \
- /usr/local/include/hyprland/src/render/OpenGL.hpp \
- /usr/local/include/hyprland/src/render/Shader.hpp \
- /usr/local/include/hyprland/src/render/Framebuffer.hpp \
- /usr/local/include/hyprland/src/debug/TracyDefines.hpp \
- /usr/local/include/hyprland/src/hyprerror/HyprError.hpp \
- /usr/local/include/hyprland/src/defines.hpp \
- /usr/local/include/hyprland/src/plugins/PluginSystem.hpp \
- /usr/local/include/hyprland/src/defines.hpp \
+ /usr/include/hyprland/src/debug/HyprNotificationOverlay.hpp \
+ /usr/include/hyprland/src/helpers/Workspace.hpp \
+ /usr/include/hyprland/src/render/Renderer.hpp \
+ /usr/include/hyprland/src/render/OpenGL.hpp \
+ /usr/include/hyprland/src/render/Shader.hpp \
+ /usr/include/hyprland/src/render/Framebuffer.hpp \
+ /usr/include/hyprland/src/debug/TracyDefines.hpp \
+ /usr/include/hyprland/src/hyprerror/HyprError.hpp \
+ /usr/include/hyprland/src/defines.hpp \
+ /usr/include/hyprland/src/plugins/PluginSystem.hpp \
+ /usr/include/hyprland/src/defines.hpp \
  /home/wrq/deskenv/dev/hycov/src/dispatchers.hpp \
  /home/wrq/deskenv/dev/hycov/src/globals.hpp \
  /home/wrq/deskenv/dev/hycov/src/GridLayout.hpp \
