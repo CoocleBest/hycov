@@ -90,7 +90,8 @@ static void toggle_hotarea(int x_root, int y_root)
            (y_root <= hy || x_root >= hx || x_root < m_x ||
             y_root > (m_y + m_height)))
   {
-    isInHotArea = false;
+    if(isInHotArea)
+      isInHotArea = false;
   }
 }
 
