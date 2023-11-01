@@ -1631,7 +1631,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "0.30.0"
+			"value" : "0.31.0"
 		},
 		{
 			"name" : "DEPS_libdrm_INCLUDEDIR",

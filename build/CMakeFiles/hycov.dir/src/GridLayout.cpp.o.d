@@ -286,7 +286,6 @@ CMakeFiles/hycov.dir/src/GridLayout.cpp.o: \
  /usr/include/bits/types/struct_statx_timestamp.h \
  /usr/include/bits/types/struct_statx.h \
  /usr/include/wlr/types/wlr_gamma_control_v1.h \
- /usr/include/wlr/types/wlr_idle.h \
  /usr/include/wlr/types/wlr_layer_shell_v1.h \
  /usr/include/hyprland/protocols/wlr-layer-shell-unstable-v1-protocol.h \
  /usr/include/wayland-server.h /usr/include/wlr/types/wlr_matrix.h \
@@ -346,6 +345,8 @@ CMakeFiles/hycov.dir/src/GridLayout.cpp.o: \
  /usr/include/wlr/types/wlr_idle_notify_v1.h \
  /usr/include/wlr/types/wlr_cursor_shape_v1.h \
  /usr/include/hyprland/protocols/cursor-shape-v1-protocol.h \
+ /usr/include/wlr/types/wlr_tearing_control_v1.h \
+ /usr/include/hyprland/protocols/tearing-control-v1-protocol.h \
  /usr/include/libdrm/drm_fourcc.h /usr/include/libdrm/drm.h \
  /usr/include/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
  /usr/include/libdrm/drm_mode.h /usr/include/wlr/backend/x11.h \
@@ -364,6 +365,7 @@ CMakeFiles/hycov.dir/src/GridLayout.cpp.o: \
  /usr/include/hyprland/src/macros.hpp /usr/include/c++/13.2.1/csignal \
  /usr/include/c++/13.2.1/utility \
  /usr/include/c++/13.2.1/bits/stl_relops.h \
+ /usr/include/hyprland/src/version.h \
  /usr/include/hyprland/src/debug/Log.hpp /usr/include/c++/13.2.1/iostream \
  /usr/include/c++/13.2.1/fstream \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
@@ -477,11 +479,14 @@ CMakeFiles/hycov.dir/src/GridLayout.cpp.o: \
  /usr/include/hyprland/src/render/OpenGL.hpp \
  /usr/include/hyprland/src/render/Shader.hpp \
  /usr/include/hyprland/src/render/Framebuffer.hpp \
+ /usr/include/hyprland/src/render/Transformer.hpp \
  /usr/include/hyprland/src/debug/TracyDefines.hpp \
  /usr/include/hyprland/src/hyprerror/HyprError.hpp \
  /usr/include/hyprland/src/defines.hpp \
  /usr/include/hyprland/src/plugins/PluginSystem.hpp \
  /usr/include/hyprland/src/defines.hpp \
+ /usr/include/hyprland/src/helpers/Watchdog.hpp \
+ /usr/include/c++/13.2.1/condition_variable \
  /home/wrq/deskenv/dev/hycov/src/globals.hpp \
  /home/wrq/deskenv/dev/hycov/src/GridLayout.hpp \
  /home/wrq/deskenv/dev/hycov/src/log.hpp
