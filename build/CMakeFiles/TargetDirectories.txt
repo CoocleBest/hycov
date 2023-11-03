@@ -1,7 +1,0 @@
-/home/wrq/deskenv/dev/hycov/build/CMakeFiles/hycov.dir
-/home/wrq/deskenv/dev/hycov/build/CMakeFiles/edit_cache.dir
-/home/wrq/deskenv/dev/hycov/build/CMakeFiles/rebuild_cache.dir
-/home/wrq/deskenv/dev/hycov/build/CMakeFiles/list_install_components.dir
-/home/wrq/deskenv/dev/hycov/build/CMakeFiles/install.dir
-/home/wrq/deskenv/dev/hycov/build/CMakeFiles/install/local.dir
-/home/wrq/deskenv/dev/hycov/build/CMakeFiles/install/strip.dir
